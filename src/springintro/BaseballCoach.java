@@ -5,7 +5,7 @@ public class BaseballCoach implements Coach {
 	private FortuneService _fortuneService;
 	
 	public BaseballCoach(FortuneService fortuneService) {
-		fortuneService=_fortuneService;
+		_fortuneService=fortuneService;
 	}
 	
 	@Override
