@@ -2,6 +2,12 @@ package springintro;
 
 public class BaseballCoach implements Coach {
 	
+	private FortuneService _fortuneService;
+	
+	public BaseballCoach(FortuneService fortuneService) {
+		fortuneService=_fortuneService;
+	}
+	
 	@Override
 	public String getDailyWorkout() {
 		return "Spend 30 minutes on batting practice!";
@@ -10,6 +16,6 @@ public class BaseballCoach implements Coach {
 	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
-		return null;
+		return _fortuneService.getFortune();
 	}
 }
