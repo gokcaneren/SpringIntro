@@ -15,6 +15,12 @@ public class SetterDemoApp {
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
 		
+		//theCoach.setEmailAddress("gookk@sdawk.com");
+		//theCoach.setTeam("slşexawle");
+		
+		System.out.println(theCoach.getEmailAddress());
+		System.out.println(theCoach.getTeam());
+		
 		context.close();
 	}
 

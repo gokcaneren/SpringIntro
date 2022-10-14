@@ -23,6 +23,10 @@
 		  class="springintro.CricketCoach">
 		  
 		  <property name="_fortuneService" ref="myFortune"></property>
+		  
+		  <property name="emailAddress" value="user@example.com" />
+		  <property name="team" value="GGGGSSSSS" />
+		  
     </bean>
 </beans>
 
