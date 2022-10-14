@@ -18,6 +18,12 @@
     	  class="springintro.BaseballCoach">
     	  <constructor-arg ref="myFortune" />
     </bean>
+    
+    <bean id= "myCricketCoach"
+		  class="springintro.CricketCoach">
+		  
+		  <property name="fortuneService" ref="myFortune"></property>
+    </bean>
 </beans>
 
 
