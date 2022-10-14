@@ -22,7 +22,7 @@
     <bean id= "myCricketCoach"
 		  class="springintro.CricketCoach">
 		  
-		  <property name="fortuneService" ref="myFortune"></property>
+		  <property name="_fortuneService" ref="myFortune"></property>
     </bean>
 </beans>
 
